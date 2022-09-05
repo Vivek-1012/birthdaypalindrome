@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: black;
+    color: blueviolet;
+  }
+
+  h1 {
+    
+   
+    background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+  
+  
+  main {
+    border: 1px solid white;
+    text-align: center;
+    height: 100%;
+  }
+  
+  p {
+    padding: 2rem;
+    text-align: center;
+    font-size: large;
+    color: violet;
+  }
+
+#showbtn {
+    background: transparent;
+    border-color: coral;
+    color: cyan;
+    border-radius: 1rem;
+
+}
+  
