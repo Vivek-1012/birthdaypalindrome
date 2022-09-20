@@ -142,8 +142,10 @@ function reverseStr(str) {
   
   function clickHandler(e){
     var bdayStr = dateInputRef.value; // 2020-10-11
-    
-    if(bdayStr !== ''){
+    if(dateInputRef.value == 0){
+      resultRef.innerText=("😒  Plz Enter some Value in Input 😒 ")
+    }
+    else if(bdayStr !== ''){
       var listOfDate = bdayStr.split('-'); // ['2020', '10', '11']
   
       var date = {
